@@ -1,0 +1,10 @@
+# UKPayCalc — UK Contractor Take-Home Pay Tools
+
+Free tools for UK contractors and freelancers, 2026/27 tax year (6 Apr 2026 – 5 Apr 2027):
+- Take-Home Pay Calculator: salary or hourly rate → income tax + employee NI + net pay (England/Wales/NI and Scotland bands)
+- IR35 Calculator: day rate → inside vs outside IR35 take-home, with employer NI (15% above £5,000) shown coming out of the assignment rate
+- Umbrella vs Limited Guide: how umbrella deductions work (margin £15–30/week, employer NI, 0.5% levy), limited company basics, comparison
+
+2026/27 figures used: personal allowance £12,570 (tapers above £100k, gone at £125,140); rUK income tax 20%/40%/45%; Scotland 19%/20%/21%/42%/45%/48%; employee NI 8% (£12,570–£50,270) then 2%; employer NI 15% above £5,000.
+
+Estimates only — not financial or tax advice. Confirm with HMRC or a qualified accountant.
