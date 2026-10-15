@@ -13,18 +13,41 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const OG_IMAGE = `${SITE_URL}/og-image.png`;
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "UKPayCalc — UK Contractor Take-Home Pay Tools",
     template: "%s | UKPayCalc",
   },
   description:
     "Free UK contractor tools: take-home pay calculator, IR35 inside/outside comparison, umbrella vs limited guide. Updated for the 2026/27 tax year.",
+  alternates: {
+    canonical: SITE_URL,
+  },
   openGraph: {
     title: "UKPayCalc — UK Contractor Take-Home Pay Tools",
     description:
       "Take-home pay calculator, IR35 checker and umbrella vs limited guide for UK contractors. 2026/27 rates.",
+    url: SITE_URL,
+    siteName: SITE_NAME,
     type: "website",
+    images: [
+      {
+        url: OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: "UKPayCalc — UK Contractor Take-Home Pay & IR35 Tools 2026/27",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UKPayCalc — UK Contractor Take-Home Pay Tools",
+    description:
+      "Take-home pay calculator, IR35 checker and umbrella vs limited guide for UK contractors. 2026/27 rates.",
+    images: [OG_IMAGE],
   },
 };
 
@@ -42,6 +65,7 @@ function Header() {
     { href: "/take-home-pay-calculator", label: "Take-Home Pay" },
     { href: "/ir35-calculator", label: "IR35 Calculator" },
     { href: "/umbrella-vs-limited", label: "Umbrella vs Limited" },
+    { href: "/blog", label: "Guides" },
     { href: "/about", label: "About" },
   ];
   return (
@@ -77,6 +101,7 @@ function Footer() {
           <a href="/take-home-pay-calculator" className="hover:text-blue-800">Take-Home Pay</a>
           <a href="/ir35-calculator" className="hover:text-blue-800">IR35 Calculator</a>
           <a href="/umbrella-vs-limited" className="hover:text-blue-800">Umbrella vs Limited</a>
+          <a href="/blog" className="hover:text-blue-800">Guides</a>
           <a href="/about" className="hover:text-blue-800">About</a>
           <a href="/privacy" className="hover:text-blue-800">Privacy</a>
         </div>

@@ -1,8 +1,37 @@
 import type { Metadata } from "next";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
+
+const PAGE_TITLE = "Privacy Policy";
+const PAGE_DESC =
+  "UKPayCalc privacy policy — no data collection. All calculations run locally in your browser.";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
-  description: "UKPayCalc privacy policy — no data collection.",
+  title: PAGE_TITLE,
+  description: PAGE_DESC,
+  alternates: {
+    canonical: `${SITE_URL}/privacy`,
+  },
+  openGraph: {
+    title: PAGE_TITLE,
+    description: PAGE_DESC,
+    url: `${SITE_URL}/privacy`,
+    siteName: SITE_NAME,
+    type: "website",
+    images: [
+      {
+        url: `${SITE_URL}/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: "UKPayCalc — UK Contractor Take-Home Pay & IR35 Tools 2026/27",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: PAGE_TITLE,
+    description: PAGE_DESC,
+    images: [`${SITE_URL}/og-image.png`],
+  },
 };
 
 export default function Privacy() {

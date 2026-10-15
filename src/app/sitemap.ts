@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
+import { posts } from "@/lib/posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages = [
@@ -9,11 +10,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/umbrella-vs-limited",
     "/about",
     "/privacy",
+    "/blog",
   ];
-  return pages.map((p) => ({
+  const staticUrls = pages.map((p) => ({
     url: `${SITE_URL}${p}`,
     lastModified: new Date("2026-10-15"),
-    changeFrequency: "weekly",
+    changeFrequency: "weekly" as const,
     priority: p === "" ? 1 : 0.8,
   }));
+  const blogUrls = posts.map((post) => ({
+    url: `${SITE_URL}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: "monthly" as const,
+    priority: 0.9,
+  }));
+  return [...staticUrls, ...blogUrls];
 }

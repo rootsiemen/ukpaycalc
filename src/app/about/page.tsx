@@ -1,8 +1,37 @@
 import type { Metadata } from "next";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
+
+const PAGE_TITLE = "About UKPayCalc";
+const PAGE_DESC =
+  "About UKPayCalc — free UK contractor take-home pay tools, updated for the 2026/27 tax year.";
 
 export const metadata: Metadata = {
-  title: "About UKPayCalc",
-  description: "About UKPayCalc — free UK contractor take-home pay tools.",
+  title: PAGE_TITLE,
+  description: PAGE_DESC,
+  alternates: {
+    canonical: `${SITE_URL}/about`,
+  },
+  openGraph: {
+    title: PAGE_TITLE,
+    description: PAGE_DESC,
+    url: `${SITE_URL}/about`,
+    siteName: SITE_NAME,
+    type: "website",
+    images: [
+      {
+        url: `${SITE_URL}/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: "UKPayCalc — UK Contractor Take-Home Pay & IR35 Tools 2026/27",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: PAGE_TITLE,
+    description: PAGE_DESC,
+    images: [`${SITE_URL}/og-image.png`],
+  },
 };
 
 export default function About() {

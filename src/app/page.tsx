@@ -1,9 +1,37 @@
 import type { Metadata } from "next";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
+
+const PAGE_TITLE = "UKPayCalc — Contractor Take-Home Pay, IR35 & Umbrella Tools";
+const PAGE_DESC =
+  "Free UK contractor calculators for 2026/27: take-home pay, IR35 inside vs outside, and umbrella vs limited company guide. Instant results, no signup.";
 
 export const metadata: Metadata = {
-  title: "UKPayCalc — Contractor Take-Home Pay, IR35 & Umbrella Tools",
-  description:
-    "Free UK contractor calculators for 2026/27: take-home pay, IR35 inside vs outside, and umbrella vs limited company guide. Instant results, no signup.",
+  title: PAGE_TITLE,
+  description: PAGE_DESC,
+  alternates: {
+    canonical: SITE_URL,
+  },
+  openGraph: {
+    title: PAGE_TITLE,
+    description: PAGE_DESC,
+    url: SITE_URL,
+    siteName: SITE_NAME,
+    type: "website",
+    images: [
+      {
+        url: `${SITE_URL}/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: "UKPayCalc — UK Contractor Take-Home Pay & IR35 Tools 2026/27",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: PAGE_TITLE,
+    description: PAGE_DESC,
+    images: [`${SITE_URL}/og-image.png`],
+  },
 };
 
 const tools = [
