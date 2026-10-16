@@ -35,8 +35,25 @@ export const metadata: Metadata = {
 };
 
 export default function About() {
+  const aboutLd = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    name: PAGE_TITLE,
+    url: `${SITE_URL}/about`,
+    about: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_URL,
+      logo: `${SITE_URL}/icon.png`,
+    },
+  };
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutLd) }}
+      />
       <h1 className="text-3xl font-extrabold tracking-tight">About UKPayCalc</h1>
       <p className="mt-4 text-zinc-600">
         UKPayCalc is a free set of tools for UK contractors and freelancers:

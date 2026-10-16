@@ -60,6 +60,17 @@ const jsonLd = {
     "Free UK contractor tools: take-home pay calculator, IR35 inside/outside comparison, umbrella vs limited company guide.",
 };
 
+/** Site brand entity for AI-search/GEO consistency. */
+const orgLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: SITE_NAME,
+  url: SITE_URL,
+  logo: `${SITE_URL}/icon.png`,
+  description:
+    "Free UK contractor tools: take-home pay calculator, IR35 inside/outside comparison, umbrella vs limited company guide.",
+};
+
 function Header() {
   const links = [
     { href: "/take-home-pay-calculator", label: "Take-Home Pay" },
@@ -121,6 +132,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgLd) }}
         />
       </head>
       <body className="min-h-full flex flex-col bg-zinc-50 text-zinc-900">
