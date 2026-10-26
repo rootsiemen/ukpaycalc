@@ -258,4 +258,149 @@ export const posts: Post[] = [
 <p>Still deciding between routes? Read our <a href="/umbrella-vs-limited">umbrella vs limited company guide</a> for the full side-by-side comparison.</p>
 `,
   },
+  {
+    slug: "uk-tax-code-explained-2026-27",
+    title: "UK Tax Code Explained 2026/27: What Your Payslip Code Means and What It Does to Your Take-Home Pay",
+    date: "2026-10-26",
+    excerpt:
+      "Your tax code decides how much tax-free pay you get before PAYE starts. Decode 1257L, BR, D0, K and emergency W1/M1 codes — with worked 2026/27 examples showing exactly what each one costs you.",
+    description:
+      "UK tax code explained 2026/27: what 1257L, BR, D0, K and emergency W1/M1 codes mean, and exactly what each one does to your take-home pay.",
+    toolHref: "/take-home-pay-calculator",
+    toolLabel: "Take-Home Pay Calculator",
+    content: `
+<p><strong>UK tax code explained 2026/27, in one sentence:</strong> your tax code tells your employer how much of your pay is tax-free before PAYE (Pay As You Earn) starts deducting income tax — and a wrong code quietly changes your take-home pay every single payday until someone spots it. This guide decodes every code you are likely to see on a payslip, using the actual 2026/27 figures for the tax year running from 6 April 2026 to 5 April 2027, and shows with worked examples exactly what each code does to your bank balance.</p>
+
+<p>If you have one job, no company benefits and no second income, your code should almost certainly be <strong>1257L</strong>. Anything else is not automatically wrong — but it should always be explainable from your own circumstances. A code you cannot explain is a code worth checking.</p>
+
+<h2>UK Tax Code Explained 2026/27: How to Read Your Code</h2>
+
+<p>Most tax codes have two parts: a <strong>number</strong> and a <strong>letter</strong>.</p>
+
+<ul>
+<li><strong>The number × 10 = your tax-free pay for that job.</strong> Code 1257L means £12,570 of tax-free pay a year. Code 900L means £9,000. Code 1383M means £13,830.</li>
+<li><strong>The letter says which rules apply.</strong> L is the standard Personal Allowance. M means you received Marriage Allowance from your partner; N means you gave it away. T means HMRC is reviewing your allowance. S and C prefixes mean Scottish and Welsh tax rates apply.</li>
+<li><strong>Some codes have no number at all.</strong> BR, D0, D1, NT and 0T work differently — they do not depend on an allowance, and the table below explains each one.</li>
+<li><strong>W1, M1 or X at the end</strong> means the code is applied on a non-cumulative, emergency basis: each payday is taxed on its own, ignoring what you earned earlier in the year.</li>
+</ul>
+
+<p>Your code appears on your payslip, your P45 when you leave a job, your P60 at the end of the tax year, and in your HMRC Personal Tax Account online or in the HMRC app. HMRC — not your employer — sets it; your employer only applies it.</p>
+
+<h2>The 2026/27 Figures Behind Every Code</h2>
+
+<p>Every code in this guide is built on the same GOV.UK figures for England, Wales and Northern Ireland in 2026/27:</p>
+
+<table>
+<thead><tr><th>Band</th><th>Taxable income</th><th>Rate</th></tr></thead>
+<tbody>
+<tr><td>Personal Allowance</td><td>Up to £12,570</td><td>0%</td></tr>
+<tr><td>Basic rate</td><td>£12,571 to £50,270</td><td>20%</td></tr>
+<tr><td>Higher rate</td><td>£50,271 to £125,140</td><td>40%</td></tr>
+<tr><td>Additional rate</td><td>Over £125,140</td><td>45%</td></tr>
+</tbody>
+</table>
+
+<p>The Personal Allowance has been frozen at £12,570 since 2021/22. Above £100,000 of adjusted net income it tapers away by £1 for every £2 over the limit, reaching zero at £125,140 — which is why a £110,000 earner has a smaller code (757L, as shown below) rather than no code at all.</p>
+
+<p>National Insurance is separate from your tax code — your code never changes your NI. For 2026/27, most employees (category A) pay <strong>8% on earnings between £12,570 and £50,270, then 2% above</strong>. That is why the worked examples below always show tax and NI separately.</p>
+
+<h2>Every Common Code, Decoded</h2>
+
+<table>
+<thead><tr><th>Code</th><th>What it means</th><th>When you see it</th></tr></thead>
+<tbody>
+<tr><td><strong>1257L</strong></td><td>£12,570 tax-free, standard rules</td><td>One job, no benefits, income under £100,000 — the default</td></tr>
+<tr><td><strong>Any number + L</strong></td><td>That number × 10 tax-free</td><td>Allowance adjusted up or down (benefits, expenses, unpaid tax)</td></tr>
+<tr><td><strong>1383M</strong></td><td>£13,830 tax-free</td><td>You received £1,260 of Marriage Allowance from your partner</td></tr>
+<tr><td><strong>1131N</strong></td><td>£11,310 tax-free</td><td>You transferred £1,260 of allowance to your partner</td></tr>
+<tr><td><strong>K475</strong></td><td>£4,750 ADDED to your taxable pay</td><td>Untaxed income or benefits exceed your allowance</td></tr>
+<tr><td><strong>BR</strong></td><td>All pay taxed at 20%, no allowance</td><td>Second job or pension — allowance already used elsewhere</td></tr>
+<tr><td><strong>D0</strong></td><td>All pay taxed at 40%, no allowance</td><td>Second income when you are already a higher-rate taxpayer</td></tr>
+<tr><td><strong>D1</strong></td><td>All pay taxed at 45%, no allowance</td><td>Second income when you are already an additional-rate taxpayer</td></tr>
+<tr><td><strong>0T</strong></td><td>No allowance; bands applied with no tax-free amount</td><td>New job without a P45, or allowance used up</td></tr>
+<tr><td><strong>NT</strong></td><td>No tax deducted</td><td>HMRC has confirmed no tax is due on this income</td></tr>
+<tr><td><strong>S1257L / C1257L</strong></td><td>Same allowance, Scottish / Welsh rates</td><td>You live in Scotland or Wales</td></tr>
+<tr><td><strong>…W1 / …M1 / …X</strong></td><td>Emergency, non-cumulative basis</td><td>New job, no P45 yet — see below</td></tr>
+</tbody>
+</table>
+
+<p>A K code deserves a second look because it works backwards: instead of giving you tax-free pay, it <em>adds</em> an amount to your taxable pay. K475 on a £40,000 salary means you are taxed as if you earned £44,750 — income tax of £8,950 instead of £5,486 on the standard code, a £3,464 difference for the year. K codes usually arise from a company car, private medical insurance, untaxed rental income or tax owed from a previous year being collected through your code.</p>
+
+<h2>Emergency Codes: W1, M1 and X</h2>
+
+<p>When you start a new job and HMRC does not yet have your details — usually because no P45 arrived — payroll puts you on an emergency code. The most common are <strong>1257L W1</strong> (weekly paid), <strong>1257L M1</strong> (monthly paid) and <strong>1257L X</strong> (irregular pay). You still get the £12,570 allowance, but only <strong>one pay period's worth at a time</strong> — £1,048 a month — with no credit for unused allowance from earlier in the year.</p>
+
+<p>Worked example: you start a £35,000-a-year job in October, seven months into the tax year. On a normal cumulative 1257L code, by month seven you would have received 7 × £1,048 = £7,336 of tax-free pay. On 1257L M1 you get just £1,048 in that first month, so roughly £6,288 extra is taxed at 20% — about <strong>£1,258 too much tax in a single payslip</strong>. The good news: once HMRC issues your cumulative code, payroll recalculates the whole year and refunds the overpayment through your next payslips. If you have already left the job, HMRC refunds it after the tax year via a P800 calculation, or you can claim sooner with form P50.</p>
+
+<p>Emergency codes are temporary, not a penalty. The fix is simple: give your new employer your P45 on day one, or complete the starter checklist accurately if you do not have one. HMRC says a corrected code can take up to 35 days after you start — if yours lasts longer, check your Personal Tax Account or call HMRC on 0300 200 3300.</p>
+
+<h2>Worked Examples: What Your Code Does to Your Take-Home Pay</h2>
+
+<p>All examples use 2026/27 England, Wales and Northern Ireland rates, one job, category A National Insurance, no pension and no student loan.</p>
+
+<h3>£35,000 salary on 1257L — the standard case</h3>
+
+<ul>
+<li>Gross salary: £35,000</li>
+<li>Taxable income: £35,000 − £12,570 = £22,430; income tax at 20% = £4,486</li>
+<li>Employee NI at 8% of £22,430 = £1,794</li>
+<li><strong>Take-home: £28,720 a year, about £2,393 a month</strong></li>
+</ul>
+
+<h3>£50,000 salary on 1257L — still basic rate</h3>
+
+<ul>
+<li>Taxable income: £50,000 − £12,570 = £37,430; income tax at 20% = £7,486</li>
+<li>Employee NI at 8% of £37,430 = £2,994</li>
+<li><strong>Take-home: £39,520 a year, about £3,293 a month</strong></li>
+</ul>
+
+<p>Note that £50,000 sits just below the £50,270 higher-rate threshold, so every pound is still taxed at 20%. Cross £50,270 and each extra pound costs 40p in tax plus 2p in NI — which is why a £50,000 to £60,000 pay rise keeps far less than the £10,000 headline suggests.</p>
+
+<h3>The same £35,000 salary on BR — the second-job trap</h3>
+
+<p>BR taxes every pound at 20% with no allowance: £35,000 × 20% = £7,000 of tax, against £4,486 on 1257L. NI is unchanged at £1,794. <strong>Take-home falls to £26,206 — £2,514 a year less</strong> — purely because of the code. BR is correct on a genuine second job, where your allowance is already used by your main job. On your only job, it is almost always an error worth fixing immediately, because that £2,514 is yours, not HMRC's.</p>
+
+<h3>£110,000 salary — the taper in action</h3>
+
+<p>At £110,000, your allowance shrinks: £12,570 − (£110,000 − £100,000) ÷ 2 = £7,570, so your code is <strong>757L</strong>. Taxable income is £102,430: the first £37,700 at 20% (£7,540) and the remaining £64,730 at 40% (£25,892), for total income tax of £33,432. NI is £3,016 at 8% up to £50,270 plus £1,195 at 2% above, totalling £4,211. <strong>Take-home: £72,357.</strong> In the taper zone between £100,000 and £125,140, each extra £1 of pay also removes 50p of allowance, so the effective marginal rate hits 60% — the single most expensive stretch of the UK tax system, and a strong reason to check pension contributions or salary-sacrifice options before a pay rise lands you in it.</p>
+
+<h2>Scotland and Wales: The S and C Prefixes</h2>
+
+<p>Your code's number and letter work the same everywhere, but an <strong>S prefix</strong> (Scotland) or <strong>C prefix</strong> (Wales) tells payroll to apply that nation's rates. Scotland has six bands in 2026/27 — starter 19% to £16,537, basic 20% to £29,526, intermediate 21% to £43,662, higher 42% to £75,000, advanced 45% to £125,140, top 48% above — on the same £12,570 allowance. Wales uses the same bands as England. So S1257L on £35,000 gives a slightly different tax bill than 1257L, but the code itself means the same £12,570 tax-free. If you move between nations mid-year, tell HMRC: the wrong prefix is one of the quietest ways to overpay.</p>
+
+<h2>How to Check and Fix a Wrong Tax Code</h2>
+
+<ol>
+<li><strong>Find your code</strong> on your latest payslip, then open your Personal Tax Account on GOV.UK (or the HMRC app) and compare — the account shows how HMRC worked your code out, line by line.</li>
+<li><strong>Ask whether you can explain it.</strong> A company car, a second job, Marriage Allowance, untaxed income or earnings over £100,000 each explain a non-standard code. If nothing in your life explains it, it is probably wrong.</li>
+<li><strong>Update your details</strong> in the Personal Tax Account — a new job, a changed income, a benefit that has ended. HMRC then issues a corrected code to your employer, usually within 15 working days.</li>
+<li><strong>Check the next payslip.</strong> A corrected cumulative code refunds earlier overpayments through payroll automatically. If you have left the job, use form P50, or wait for the P800 after the tax year.</li>
+<li><strong>For contractors:</strong> a tax code only affects PAYE income — salary from an umbrella company or a second job. Limited-company dividends and corporation tax sit outside it entirely, which is one reason the <a href="/blog/contractor-take-home-pay-2026-27">limited vs umbrella comparison</a> looks so different. If you work through an umbrella, check the code on your umbrella payslip the same way: the <a href="/blog/umbrella-company-costs-uk-2026">umbrella deductions guide</a> shows where the code fits in the deduction chain, and our <a href="/blog/ir35-explained-2026">IR35 guide</a> explains when the whole route changes.</li>
+</ol>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What does tax code 1257L mean?</h3>
+<p>1257L is the standard UK tax code for 2026/27. The number 1257 × 10 = £12,570 of tax-free Personal Allowance for the year, and the letter L means the standard allowance applies with no special adjustments. Most people with one job and no benefits should be on it.</p>
+
+<h3>Is BR tax code bad?</h3>
+<p>BR is not a penalty — it means all income from that job is taxed at the basic rate of 20% with no Personal Allowance. It is correct for a second job, where your allowance is already used by your main job. On your only job, it usually means HMRC has no P45 or starter checklist for you, and you are overpaying by £2,514 a year on a £35,000 salary.</p>
+
+<h3>How long does an emergency tax code last?</h3>
+<p>Usually until HMRC receives your employment details and issues a cumulative code — HMRC says this can take up to 35 days after starting a job, and in practice a few weeks if you handed over your P45 promptly. If it lasts longer, check your Personal Tax Account or contact HMRC.</p>
+
+<h3>Will I get emergency tax back automatically?</h3>
+<p>In most cases, yes. Once your employer receives your correct cumulative code, payroll recalculates the tax year so far and refunds the overpayment through your wages. If you have left the job or the tax year has ended, HMRC issues a P800 calculation, or you can claim with form P50.</p>
+
+<h3>Does my tax code affect National Insurance?</h3>
+<p>No. National Insurance is calculated from your earnings alone — 8% between £12,570 and £50,270, then 2% above for most employees in 2026/27 — and never uses your tax code. If your take-home pay looks wrong but your NI looks right, the tax code is the first place to look.</p>
+
+<h2>The Bottom Line</h2>
+
+<p>Your tax code is a small string of characters with a large effect: on a £35,000 salary, the difference between 1257L and BR alone is £2,514 a year. Check it once, when you start a job and whenever it changes, and make sure you can explain it from your own circumstances. If you cannot, your Personal Tax Account will tell you why HMRC set it — and fixing it is usually a few clicks, not a phone queue.</p>
+
+<p>Want your exact numbers under your own code? Run them through our free <a href="/take-home-pay-calculator">take-home pay calculator</a> — salary or day rate in, every deduction shown line by line, England and Scotland supported. And if you are weighing umbrella against limited company, our <a href="/ir35-calculator">IR35 calculator</a> shows what inside vs outside IR35 does to the same rate.</p>
+`,
+  },
 ];
