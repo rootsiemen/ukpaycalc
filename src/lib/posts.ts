@@ -403,4 +403,172 @@ export const posts: Post[] = [
 <p>Want your exact numbers under your own code? Run them through our free <a href="/take-home-pay-calculator">take-home pay calculator</a> — salary or day rate in, every deduction shown line by line, England and Scotland supported. And if you are weighing umbrella against limited company, our <a href="/ir35-calculator">IR35 calculator</a> shows what inside vs outside IR35 does to the same rate.</p>
 `,
   },
+  {
+    slug: "uk-student-loan-repayment-2026-27",
+    title: "UK Student Loan Repayment 2026/27: How Much You Pay on Your Salary",
+    date: "2026-10-27",
+    excerpt:
+      "Student loan repayment in 2026/27 depends on your plan, not your balance. Every threshold, worked monthly amounts on £30k–£80k salaries, and what changes if you contract through an umbrella or a limited company.",
+    description:
+      "Student loan repayment 2026/27: Plan 1, 2, 4, 5 and Postgraduate thresholds, monthly amounts on £30k–£80k salaries, plus what changes for contractors.",
+    toolHref: "/take-home-pay-calculator",
+    toolLabel: "Take-Home Pay Calculator",
+    content: `
+<p><strong>Student loan repayment 2026/27 works on one simple rule: you repay a percentage of what you earn above your plan's threshold — never a percentage of what you borrowed.</strong> Earn below the threshold and you pay nothing, however large your balance. Earn above it and the deduction comes out of your pay automatically, before you ever see it. This guide covers every plan's 2026/27 threshold (verified against GOV.UK), worked monthly amounts for salaries from £30,000 to £80,000, the interest and write-off rules, and the contractor-specific twist: how repayments differ between an umbrella payslip and a limited company.</p>
+
+<p>The tax year here is <strong>2026/27 — 6 April 2026 to 5 April 2027</strong>. All thresholds, rates and interest figures below are the 2026/27 figures published by GOV.UK and the Student Loans Company.</p>
+
+<img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200" alt="University graduates celebrating at a graduation ceremony" />
+
+<h2>Student Loan Repayment 2026/27: The Thresholds for Every Plan</h2>
+
+<p>Your plan is decided by when and where you studied — not by choice. The repayment rate is 9% of income above the threshold for undergraduate plans (1, 2, 4 and 5) and 6% above the threshold for a Postgraduate Loan.</p>
+
+<table>
+<thead><tr><th>Plan</th><th>Yearly threshold</th><th>Monthly threshold</th><th>Rate</th></tr></thead>
+<tbody>
+<tr><td><strong>Plan 1</strong></td><td>£26,900</td><td>£2,241</td><td>9%</td></tr>
+<tr><td><strong>Plan 2</strong></td><td>£29,385</td><td>£2,448</td><td>9%</td></tr>
+<tr><td><strong>Plan 4</strong></td><td>£33,795</td><td>£2,816</td><td>9%</td></tr>
+<tr><td><strong>Plan 5</strong></td><td>£25,000</td><td>£2,083</td><td>9%</td></tr>
+<tr><td><strong>Postgraduate Loan</strong></td><td>£21,000</td><td>£1,750</td><td>6%</td></tr>
+</tbody>
+</table>
+
+<p>One important detail: payroll works <strong>per pay period</strong>, not per year. Your employer compares each month's pay against the monthly threshold and deducts 9% (or 6%) of the excess, rounded down to the nearest pound. That means a single bonus month can trigger a deduction even if your annual salary sits near the threshold — and if your annual income ends up below the yearly threshold, you can claim a refund from the Student Loans Company at the end of the tax year.</p>
+
+<h2>Which Plan Are You On?</h2>
+
+<ul>
+<li><strong>Plan 1:</strong> you started an undergraduate course in England or Wales before 1 September 2012, or you are a Northern Ireland student (any start date).</li>
+<li><strong>Plan 2:</strong> you started an undergraduate course in England or Wales between 1 September 2012 and 31 July 2023.</li>
+<li><strong>Plan 4:</strong> you are a Scottish student funded by the Student Awards Agency for Scotland (SAAS).</li>
+<li><strong>Plan 5:</strong> you started an undergraduate course in England on or after 1 August 2023 — the newest plan, and the first to see repayments from April 2026.</li>
+<li><strong>Postgraduate Loan:</strong> you took a master's or doctoral loan in England or Wales. It stacks on top of an undergraduate plan: you pay both at once.</li>
+</ul>
+
+<p>If you are unsure, your plan is printed on your payslip deduction line and in your online Student Loans Company account. Getting it wrong matters: ticking the wrong plan type on a starter checklist means your employer deducts against the wrong threshold from day one.</p>
+
+<h2>Worked Examples: What You Actually Pay Each Month</h2>
+
+<p>All figures below are the PAYE monthly deduction (9% or 6% of the month's pay above the monthly threshold, rounded down). Annual totals are the monthly figure × 12, which is how most people experience it.</p>
+
+<h3>Plan 2 on a £40,000 salary — the most common case</h3>
+
+<ul>
+<li>Monthly pay: £40,000 ÷ 12 = £3,333.33</li>
+<li>Above the Plan 2 monthly threshold: £3,333.33 − £2,448 = £885.33</li>
+<li>9% of £885.33 = £79.68, rounded down to <strong>£79 a month — about £956 a year</strong></li>
+</ul>
+
+<h3>Plan 5 on a £35,000 salary</h3>
+
+<ul>
+<li>Monthly pay: £2,916.67; above the £2,083 threshold: £833.67</li>
+<li>9% of £833.67 = £75.03, rounded down to <strong>£75 a month — about £900 a year</strong></li>
+</ul>
+
+<h3>Plan 2 plus a Postgraduate Loan on £45,000</h3>
+
+<p>The two loans stack. Monthly pay is £3,750:</p>
+
+<ul>
+<li>Postgraduate Loan: 6% of (£3,750 − £1,750) = <strong>£120 a month</strong></li>
+<li>Plan 2: 9% of (£3,750 − £2,448) = £117.18, rounded down to <strong>£117 a month</strong></li>
+<li>Combined: <strong>£237 a month — about £2,844 a year</strong></li>
+</ul>
+
+<h3>Monthly repayments at a glance</h3>
+
+<table>
+<thead><tr><th>Salary</th><th>Plan 1</th><th>Plan 2</th><th>Plan 4</th><th>Plan 5</th></tr></thead>
+<tbody>
+<tr><td>£30,000</td><td>£23</td><td>£4</td><td>£0</td><td>£37</td></tr>
+<tr><td>£40,000</td><td>£98</td><td>£79</td><td>£47</td><td>£112</td></tr>
+<tr><td>£50,000</td><td>£173</td><td>£155</td><td>£122</td><td>£187</td></tr>
+<tr><td>£60,000</td><td>£248</td><td>£230</td><td>£197</td><td>£262</td></tr>
+<tr><td>£80,000</td><td>£398</td><td>£380</td><td>£347</td><td>£412</td></tr>
+</tbody>
+</table>
+
+<p>Notice how the plan changes the bill at the same salary: on £50,000, Plan 5 costs £32 a month more than Plan 2, purely because its threshold is £4,385 lower. Plan type, not effort or balance, is what sets the monthly cost.</p>
+
+<img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200" alt="Calculator and tax documents on a desk for working out take-home pay" />
+
+<h2>The Marginal Rate Trap: Where £1 Extra Costs 51p</h2>
+
+<p>For graduates, the headline tax bands understate the real marginal rate. Take a Plan 2 graduate earning between £50,271 and £80,000 in 2026/27:</p>
+
+<ul>
+<li>Income tax at the higher rate: <strong>40%</strong></li>
+<li>Employee National Insurance above £50,270: <strong>2%</strong></li>
+<li>Student loan repayment: <strong>9%</strong></li>
+<li><strong>Combined marginal rate: 51%</strong> — you keep 49p of each extra £1</li>
+</ul>
+
+<p>Between £29,385 and £50,270 the combined rate is 37% (20% tax + 8% NI + 9% loan). Add a Postgraduate Loan and the band between £50,271 and £80,000 reaches 57%. This is why a pay rise, a bonus or extra contracting income can feel smaller than the headline suggests — and why pension contributions, which reduce the income the loan is calculated on, are worth modelling before you accept a higher rate. Our <a href="/blog/uk-tax-code-explained-2026-27">tax code guide</a> shows how the same bands interact with your payslip code.</p>
+
+<h2>Interest and Write-Off: Why the Balance Is Not the Bill</h2>
+
+<p>Interest does not change your monthly repayment — that is always 9% or 6% above the threshold. It only changes how fast the balance grows, and therefore whether you ever clear it before write-off:</p>
+
+<table>
+<thead><tr><th>Plan</th><th>Interest 2026/27</th><th>Written off after</th></tr></thead>
+<tbody>
+<tr><td>Plan 1</td><td>4.1%</td><td>25 years (age 65 for pre-September 2006 loans)</td></tr>
+<tr><td>Plan 2</td><td>Variable, capped at 6%</td><td>30 years</td></tr>
+<tr><td>Plan 4</td><td>4.1%</td><td>30 years</td></tr>
+<tr><td>Plan 5</td><td>4.1%</td><td>40 years</td></tr>
+<tr><td>Postgraduate Loan</td><td>6%</td><td>30 years</td></tr>
+</tbody>
+</table>
+
+<p>Plan 2 interest is income-linked: 4.1% at or below £29,385, rising to 6% at £52,885 and above. The write-off clock starts from the April after you were first due to repay. Anything left at write-off is cancelled and is not taxed. That is the key insight for overpayment decisions (below): for most Plan 2 and Plan 5 borrowers, the loan behaves more like a graduate tax than a conventional debt, because the balance is written off before it is ever repaid in full.</p>
+
+<p>One freeze to watch: the Plan 2 threshold rises to £29,385 in April 2026 and is then <strong>frozen at £29,385 from April 2027 through to April 2030</strong> (announced at the Autumn Budget 2025). With wages rising and the threshold fixed, every £1,000 of pay rise above the frozen threshold adds £90 a year to repayments — fiscal drag, applied to graduates.</p>
+
+<h2>Contractors: Umbrella Payslip vs Limited Company</h2>
+
+<p>This is where student loans catch contractors out, because the route changes how — and when — the repayment is collected.</p>
+
+<h3>Through an umbrella company</h3>
+
+<p>You are an employee of the umbrella, so repayments come out of your payslip through PAYE exactly like any employee, using the monthly thresholds above. On the worked example in our <a href="/blog/umbrella-company-costs-uk-2026">umbrella costs guide</a> — a £400/day assignment giving roughly £77,300 of gross pay — a Plan 2 contractor repays 9% of (£77,300 − £29,385) = <strong>about £4,312 a year, roughly £359 a month</strong>, on top of PAYE tax and NI. It is already inside the take-home figure the umbrella quotes, so check whether a quoted "net" rate includes it.</p>
+
+<h3>Through your own limited company</h3>
+
+<p>There is no PAYE deduction on dividends. Instead, HMRC works out your student loan repayment from your Self Assessment tax return on your <strong>total income for the year</strong> — salary plus dividends (unearned income above £2,000 counts). Example: a director taking a £12,570 salary plus £50,000 of dividends has total income of £62,570. On Plan 2, the repayment is 9% of (£62,570 − £29,385) = <strong>about £2,987 for the year</strong>, payable with the Self Assessment bill — a lump sum, not a monthly deduction, so budget for it. Any PAYE student loan already deducted from employment income in the same year is credited against it.</p>
+
+<p>The practical difference: umbrella contractors pay monthly and never see a bill; limited-company contractors pay annually and must reserve for it. Either way, the loan follows your income, not your route — and our <a href="/blog/contractor-take-home-pay-2026-27">limited vs umbrella comparison</a> shows how the routes differ once every deduction, including the loan, is counted. If you are weighing inside vs outside IR35 at the same time, our <a href="/blog/ir35-explained-2026">IR35 guide</a> explains when the whole route changes.</p>
+
+<img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1200" alt="Historic university building exterior" />
+
+<h2>Overpaying: When It Saves Money and When It Does Not</h2>
+
+<p>Voluntary overpayments only save money if you would otherwise clear the loan in full before write-off — typically higher earners or people with small balances. If your loan is heading for write-off with a balance remaining, every extra pound you pay simply reduces the amount that would have been written off anyway. Before overpaying, check three things: your current balance and interest rate in your Student Loans Company account, a realistic salary path to write-off, and whether the same money would do more in a pension (where higher-rate relief and, via salary sacrifice, NI savings apply) or clearing commercial debt first.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How much student loan do I pay on a £40,000 salary?</h3>
+<p>On Plan 2 in 2026/27, £79 a month: 9% of the £885.33 by which your £3,333.33 monthly pay exceeds the £2,448 monthly threshold, rounded down. On Plan 1 it is £98 a month, on Plan 4 £47, and on Plan 5 £112 — same salary, different plan, different bill.</p>
+
+<h3>Do I pay student loan if I earn below the threshold?</h3>
+<p>No. Below your plan's threshold the deduction is £0, however large your balance, and interest still accrues but no repayment is due. If a bonus month pushes you over the monthly threshold but your annual income ends up below the yearly threshold, you can claim a refund at the end of the tax year.</p>
+
+<h3>Does a student loan affect my credit score?</h3>
+<p>No — student loans do not appear on UK credit files and do not directly affect your credit score. They do reduce your take-home pay, which mortgage lenders count when assessing affordability, so the monthly deduction can reduce how much you can borrow.</p>
+
+<h3>What happens to my student loan if I go contracting through a limited company?</h3>
+<p>Repayments switch from monthly PAYE deductions to an annual Self Assessment calculation on your total income (salary plus dividends). You pay 9% (or 6% for a Postgraduate Loan) of income above your plan's threshold for the year, minus any PAYE repayments already made — so reserve for a lump sum with your tax bill.</p>
+
+<h3>Is the Plan 2 threshold really frozen until 2030?</h3>
+<p>Yes. The Plan 2 threshold rises to £29,385 in April 2026 and stays frozen at £29,385 from April 2027 to April 2030 under the Autumn Budget 2025 announcement. With the 9% rate unchanged, each £1,000 of pay rise above the frozen threshold adds £90 a year to what you repay.</p>
+
+<h2>The Bottom Line</h2>
+
+<p>Student loan repayment in 2026/27 is a payroll calculation, not a debt negotiation: find your plan, find its threshold, and take 9% (or 6%) of everything above it. On a £40,000 salary that is £79 a month on Plan 2; on £80,000 it is £380. The expensive mistakes are all avoidable — the wrong plan type on a starter checklist, a forgotten Self Assessment bill as a limited-company contractor, and overpaying a loan that was heading for write-off anyway. Get the plan right, budget the monthly (or annual) figure, and the loan becomes one more line on the payslip — not a surprise.</p>
+
+<p>Want the full picture for your own salary? Run it through our free <a href="/take-home-pay-calculator">take-home pay calculator</a> — salary or day rate in, income tax, National Insurance and every deduction shown line by line, England and Scotland supported.</p>
+`,
+  },
 ];
